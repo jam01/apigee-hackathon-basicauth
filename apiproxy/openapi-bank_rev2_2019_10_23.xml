@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="7" name="openapi-bank_rev2_2019_10_23">
+    <Basepaths>/openapi-bank</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1571857662634</CreatedAt>
+    <CreatedBy>defaultUser</CreatedBy>
+    <Description></Description>
+    <DisplayName>openapi-bank</DisplayName>
+    <LastModifiedAt>1571931570511</LastModifiedAt>
+    <LastModifiedBy>defaultUser</LastModifiedBy>
+    <ManifestVersion>SHA-512:a890cfb55b5d1cf815a2cd77832a93df414aed9b840132fa76325bc5c840c7fc57aeb1ee8f18ea21e70c1ba61fc752a7582dc355a50131a6cb712ca9669bb2b2</ManifestVersion>
+    <Policies>
+        <Policy>Assign-Message-Unauthorized</Policy>
+        <Policy>AuthFault</Policy>
+        <Policy>db-basic-auth-check</Policy>
+        <Policy>decode-basic-auth</Policy>
+        <Policy>default-error-message</Policy>
+        <Policy>impose-quota</Policy>
+        <Policy>override-content-type</Policy>
+        <Policy>remove-query-param-apikey</Policy>
+        <Policy>verify-api-key</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>java://basic-auth-jar-with-dependencies.jar</Resource>
+        <Resource>openapi://association.json</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<BasicAuthentication async="false" continueOnError="false" enabled="true" name="decode-basic-auth">
+    <DisplayName>Basic Authentication-1</DisplayName>
+    <Operation>Decode</Operation>
+    <IgnoreUnresolvedVariables>false</IgnoreUnresolvedVariables>
+    <User ref="auth.username"/>
+    <Password ref="auth.password"/>
+    <AssignTo createNew="false">request.header.Authorization</AssignTo>
+    <Source>request.header.Authorization</Source>
+</BasicAuthentication>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="Assign-Message-Unauthorized" version="SHA-512:22d78cf2e30f88a98c2de3181602e2baec5882776ff5c77461f71940419c2f8d56fac2645047d60fd570576542c610bdf3da62ba471ae7cea8b9e4c2b9a738d8"/>
+        <VersionInfo resourceName="AuthFault" version="SHA-512:e41f534d4095aa9eb3aae59fdac72f1635e96ad3c0d317bf381b9e14f33bb5736d88bcb52a629368dabe67f0130b6fde3c66fb0fe24c04d1f0a2d26ada762bd8"/>
+        <VersionInfo resourceName="db-basic-auth-check" version="SHA-512:e197aaccf50806d6c1d515557807d354f9343bab557545fd1fff2c5891f9f01a4ce02602a70ba22b77030a5eaffd1e2269b8e1b71c8a9d9e76881fdcc103d670"/>
+        <VersionInfo resourceName="decode-basic-auth" version="SHA-512:1a4f7a2a23a4c8734a0c6d9f8a8c2269775d821de276330d60b1b62db9d1bdf3d041b613e3e89e7debcfafc5d4e4915dd25ef79ce8648381d1f011f16f1b10e8"/>
+        <VersionInfo resourceName="default-error-message" version="SHA-512:a59e729c1a0a393de7af2950967698ea2e62b687e03c41df33c493167384cb1fbbcea2c81e143ffe049c9499bc333e5ba2c2d5c03b3942bf2217e0e05b4453f0"/>
+        <VersionInfo resourceName="impose-quota" version="SHA-512:c9fa343c043ee2a736b86ede60733f5c27b63e67d9e337d35098a3379ae00b846762d1d13a873cc436d3faf9c7c8dfebf14daf792cf47ae2c88586651e056f57"/>
+        <VersionInfo resourceName="override-content-type" version="SHA-512:6ade16db967072ddfacaf735be8974f89b52eaf31e0e1baa64f578b945b8cef7737a860e52f0194e302d86fcfea7f50f7d12111410232e9a6c130228b9dfd25f"/>
+        <VersionInfo resourceName="remove-query-param-apikey" version="SHA-512:fd0969cab5564b5035ad5fcdafb1e77b9a63dcc52414f7866961df73db39cdb4a59b71cbf921bdd22a8c66964b5d6fe6a7ca06666545edbab7e342da91297a0b"/>
+        <VersionInfo resourceName="verify-api-key" version="SHA-512:f50bda3fb8004531dbaf802e042ee6575c40cec7a979962b81ec38c7de9f78de308e704faa3afa45d17fde1126c1f057a062b64f687c073478c70f0241e155e5"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:960ce6a0d5f799984986a73537c881eedfe8ee3f88181fefcc89ec244ffe28694ff255d5811d6d698adb5679d17e729ffb6fbc4619e706ca2a6ecb2dfe656160"/>
+    </ProxyEndpoints>
+    <Resources>
+        <VersionInfo resourceName="java://basic-auth-jar-with-dependencies.jar" version="SHA-512:fa8e39f49723c6085412513dd9fcd9a22db7e812e704cd3aebdaeb9406157a0cbf0dbf462e879b9c62066d4d307da73f6e64ac359fc6145485ef681f66cf7429"/>
+        <VersionInfo resourceName="openapi://association.json" version="SHA-512:e198661b41f3ee4c8c36973d38c146dbb031ca8038e04e7cb632bbe3be3e0231ab11102e5f8409a82cd675a9c6980d8e989a195d126991c276b7c270ed0bcd48"/>
+    </Resources>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:c849cde09183e0792dc069045b591f7f8906de9e5f0e64c73f5d904348ccbf9dff2b3fd745be5259ea90cb43a9664cd619265cf5559d9003042951f30bf197f2"/>
+    </TargetEndpoints>
+</Manifest>

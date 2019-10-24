@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TargetEndpoint name="default">
+    <Description/>
+    <FaultRules/>
+    <PreFlow name="PreFlow">
+        <Request/>
+        <Response/>
+    </PreFlow>
+    <PostFlow name="PostFlow">
+        <Request/>
+        <Response/>
+    </PostFlow>
+    <Flows/>
+    <HTTPTargetConnection>
+        <Properties/>
+        <URL>https://anypoint.mulesoft.com/mocking/api/v1/links/1fdf0b4a-9b65-48ad-b620-7acb22834982/</URL>
+    </HTTPTargetConnection>
+</TargetEndpoint>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage async="false" continueOnError="false" enabled="true" name="Assign-Message-Unauthorized">
+    <DisplayName>Assign Message-Unauthorized</DisplayName>
+    <Set>
+        <StatusCode>401</StatusCode>
+        <ReasonPhrase>Unauthorized</ReasonPhrase>
+        <Payload contentType="application/json">{"message":"You're not Volodymy or Jose, go away!"}</Payload>
+    </Set>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+    <AssignTo createNew="false" transport="http" type="request"/>
+</AssignMessage>

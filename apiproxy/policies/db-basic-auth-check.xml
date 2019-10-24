@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<JavaCallout async="false" continueOnError="false" enabled="true" name="db-basic-auth-check">
+    <DisplayName>Java Callout-2</DisplayName>
+    <Properties/>
+    <ClassName>com.ms3_inc.apigee.basicauth.Authenticate</ClassName>
+    <ResourceURL>java://basic-auth-jar-with-dependencies.jar</ResourceURL>
+</JavaCallout>
